@@ -1,0 +1,52 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    color: rgb(109, 109, 109);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#navbarIcon{
+    margin-right: 300px;
+    margin-left: 10px;
+}
+#navbar li{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+#navbar li:hover{
+    border-bottom: red 2px solid;
+}
+button{
+    background-color: #000;
+    border-radius: 10px;
+    padding: 8px;
+    width: 100px;
+    margin: 10px;
+    color: white;
+}
+button:hover{
+    box-shadow: 2px 2px 30px rgb(235, 17, 180);
+      background-color: rgb(231, 9, 113);
+      border: none;
+}
+/* footer */
+#footerCategories ul li a:hover{
+    color: red;
+  }
+
+  #footerLink ul li a:hover{
+    color: red;
+  }
+  #footerNewsletter button{
+    background-color: #000;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 10px;
+    color: white;
+  }
+  #footerNewsletter button:hover{
+    box-shadow: 2px 2px 30px rgb(235, 17, 180);
+      background-color: rgb(231, 9, 113);
+      border: none;
+  }
+/* footer end */
